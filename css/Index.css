@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_section {
+    padding: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.navbar-brand {
+    font-family: 'Potta One', cursive;
+
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 32px;
+    color: #FF0000;
+    margin-left: 350px;
+
+}
+
+.nav-menu {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.nav-item {
+    margin-left: 20px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+.bg {
+    position: relative;
+    background-image: url('../Images/hero-bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.order-btn {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.hero {
+    color: white;
+    padding: 250px;
+    min-height: 100vh;
+    margin-left: 130px;
+    margin-right: 500px;
+
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+} 
+
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px; 
+    background-color: #FFF7EC;
+}
+
+.content-image img {
+    margin-left: 300px;
+    max-width: 50%; 
+    border-radius: 20px;
+}
+
+.content-text {
+    margin-right: 200px;
+    max-width: 55%; 
+    margin-bottom: 50px;
+
+}
+
+.content-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content-text ul {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.content-text p {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 50px;
+}
+.footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    background-color: #1d1d1d; 
+    color: white; 
+}
+
+.contact-info, .footer-text, .opening-hours {
+    flex: 1; 
+    text-align: center; 
+}
+
+.footer-text h1 {
+    font-family: 'Potta One', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FF0000;
+    margin-bottom: 10px; 
+}
+
+.footer-text p {
+    margin-bottom: 10px; 
+}
+
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.social-icon {
+    width: 50px; 
+    height: auto; 
+    margin-right: 15px;    
+
+}
+
+
+.opening-hours h3, .contact-info h3 {
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+}
+
+.opening-hours p {
+    margin: 0; 
+}
