@@ -1,0 +1,86 @@
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ebd98f;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style untuk container */
+.container {
+    background-color: rgb(34, 160, 59);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;  /* Batasi lebar maksimal untuk kenyamanan */
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+/* Style untuk input number */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* Style untuk tombol */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+/* Warna tombol Jumlahkan */
+.btn-jumlahkan {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Warna tombol Reset */
+.btn-reset {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Style untuk hasil */
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Media query untuk layar lebih kecil */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
